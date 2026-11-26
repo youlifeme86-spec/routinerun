@@ -10,7 +10,8 @@
     ['race','race.html','레이스 보드'],
     ['student','student.html','학생 존'],
     ['parent','parent.html','학부모 리포트'],
-    ['guide','guide.html','이용 안내']
+    ['guide','guide.html','이용 안내'],
+    ['admin','admin.html','선생님']
   ];
   var mark = '<svg class="mark" viewBox="0 0 34 22" aria-hidden="true"><rect x="2" y="2" width="30" height="18" rx="9" fill="none" stroke="#2E9E6B" stroke-width="4"/><circle cx="26" cy="5" r="3.2" fill="#FF7A2F"/></svg>';
   var burger = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';

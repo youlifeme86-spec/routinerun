@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>학생 존 · 루틴런</title>
+<meta name="description" content="루틴런 학생 존: 우리 반 캐릭터와 내 성장 단계 보기">
+<meta name="theme-color" content="#FF7A2F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="app" data-page="student">
+
+<div class="appbar"><div class="wrap">
+  <h1>🧒 학생 존</h1>
+  <span class="hint">내 캐릭터를 누르고 내 코드 6자리를 넣으면 내 기록을 볼 수 있어요. 공부 체크는 선생님이 준 내 링크에서 해요.</span>
+  <a class="btn light small" data-view="students" target="_blank" rel="noopener">↗ 새 창으로</a>
+</div></div>
+<div style="position:relative">
+  <div class="loading">불러오는 중이에요… 🏃</div>
+  <iframe class="appframe" data-view="students" title="🧒 학생 존" allow="clipboard-write"></iframe>
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
